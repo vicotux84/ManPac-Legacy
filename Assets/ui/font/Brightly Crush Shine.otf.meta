@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1054836c4c00eaa4181a63291fa16e47
+timeCreated: 1714223000
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Brighly Crush
+  fontNames:
+  - Brighly Crush
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

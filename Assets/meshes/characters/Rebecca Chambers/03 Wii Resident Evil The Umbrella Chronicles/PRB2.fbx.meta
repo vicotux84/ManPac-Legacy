@@ -1,0 +1,1379 @@
+fileFormatVersion: 2
+guid: f71e1d4d78a17334097c4f632ccaa7f9
+timeCreated: 1714249504
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _00
+    100002: _01
+    100004: _02
+    100006: _03
+    100008: _04
+    100010: _05
+    100012: _06
+    100014: _07
+    100016: _08
+    100018: _09
+    100020: _10
+    100022: _11
+    100024: _12
+    100026: _13
+    100028: _14
+    100030: _15
+    100032: _16
+    100034: _17
+    100036: _18
+    100038: _19
+    100040: _20
+    100042: _21
+    100044: _22
+    100046: _23
+    100048: _24
+    100050: _25
+    100052: _26
+    100054: a1
+    100056: a4
+    100058: a_2
+    100060: Armature
+    100062: b00_2
+    100064: bmerge111
+    100066: bmerge125
+    100068: bmerge77
+    100070: C0_00
+    100072: C0_01
+    100074: C0_02
+    100076: C0_03
+    100078: C1_00
+    100080: C1_01
+    100082: C1_02
+    100084: C1_03
+    100086: c20
+    100088: C2_00
+    100090: C2_01
+    100092: C2_02
+    100094: C2_03
+    100096: CAMERA2
+    100098: CAMERA_01
+    100100: CAMERA_02
+    100102: CAMERA_03
+    100104: cube5
+    100106: edge2
+    100108: hand
+    100110: hand_l0
+    100112: hand_l1
+    100114: hand_l2
+    100116: hand_r0
+    100118: hand_r1
+    100120: hand_r2
+    100122: MESH
+    100124: mod_center_0_95_scale_
+    100126: N_ALL
+    100128: obj14
+    100130: obj17
+    100132: obj18
+    100134: obj20
+    100136: obj25
+    100138: obj29
+    100140: obj30
+    100142: obj33
+    100144: obj34
+    100146: obj35
+    100148: obj36
+    100150: obj38
+    100152: obj39
+    100154: obj41
+    100156: polygon0
+    100158: polygon1
+    100160: polygon10
+    100162: polygon11
+    100164: polygon12
+    100166: polygon13
+    100168: polygon14
+    100170: polygon15
+    100172: polygon16
+    100174: polygon17
+    100176: polygon18
+    100178: polygon19
+    100180: polygon2
+    100182: polygon20
+    100184: polygon21
+    100186: polygon22
+    100188: polygon23
+    100190: polygon24
+    100192: polygon25
+    100194: polygon26
+    100196: polygon27
+    100198: polygon28
+    100200: polygon29
+    100202: polygon3
+    100204: polygon30
+    100206: polygon31
+    100208: polygon32
+    100210: polygon33
+    100212: polygon34
+    100214: polygon35
+    100216: polygon36
+    100218: polygon37
+    100220: polygon38
+    100222: polygon39
+    100224: polygon4
+    100226: polygon40
+    100228: polygon41
+    100230: polygon42
+    100232: polygon43
+    100234: polygon44
+    100236: polygon45
+    100238: polygon46
+    100240: polygon47
+    100242: polygon48
+    100244: polygon49
+    100246: polygon5
+    100248: polygon50
+    100250: polygon51
+    100252: polygon52
+    100254: polygon53
+    100256: polygon54
+    100258: polygon55
+    100260: polygon56
+    100262: polygon57
+    100264: polygon58
+    100266: polygon6
+    100268: polygon7
+    100270: polygon8
+    100272: polygon9
+    100274: polymsh
+    100276: polymsh1
+    100278: polymsh2
+    100280: //RootNode
+    100282: prb1
+    100284: samurai2
+    100286: tekubi_awase
+    100288: watch
+    400000: _00
+    400002: _01
+    400004: _02
+    400006: _03
+    400008: _04
+    400010: _05
+    400012: _06
+    400014: _07
+    400016: _08
+    400018: _09
+    400020: _10
+    400022: _11
+    400024: _12
+    400026: _13
+    400028: _14
+    400030: _15
+    400032: _16
+    400034: _17
+    400036: _18
+    400038: _19
+    400040: _20
+    400042: _21
+    400044: _22
+    400046: _23
+    400048: _24
+    400050: _25
+    400052: _26
+    400054: a1
+    400056: a4
+    400058: a_2
+    400060: Armature
+    400062: b00_2
+    400064: bmerge111
+    400066: bmerge125
+    400068: bmerge77
+    400070: C0_00
+    400072: C0_01
+    400074: C0_02
+    400076: C0_03
+    400078: C1_00
+    400080: C1_01
+    400082: C1_02
+    400084: C1_03
+    400086: c20
+    400088: C2_00
+    400090: C2_01
+    400092: C2_02
+    400094: C2_03
+    400096: CAMERA2
+    400098: CAMERA_01
+    400100: CAMERA_02
+    400102: CAMERA_03
+    400104: cube5
+    400106: edge2
+    400108: hand
+    400110: hand_l0
+    400112: hand_l1
+    400114: hand_l2
+    400116: hand_r0
+    400118: hand_r1
+    400120: hand_r2
+    400122: MESH
+    400124: mod_center_0_95_scale_
+    400126: N_ALL
+    400128: obj14
+    400130: obj17
+    400132: obj18
+    400134: obj20
+    400136: obj25
+    400138: obj29
+    400140: obj30
+    400142: obj33
+    400144: obj34
+    400146: obj35
+    400148: obj36
+    400150: obj38
+    400152: obj39
+    400154: obj41
+    400156: polygon0
+    400158: polygon1
+    400160: polygon10
+    400162: polygon11
+    400164: polygon12
+    400166: polygon13
+    400168: polygon14
+    400170: polygon15
+    400172: polygon16
+    400174: polygon17
+    400176: polygon18
+    400178: polygon19
+    400180: polygon2
+    400182: polygon20
+    400184: polygon21
+    400186: polygon22
+    400188: polygon23
+    400190: polygon24
+    400192: polygon25
+    400194: polygon26
+    400196: polygon27
+    400198: polygon28
+    400200: polygon29
+    400202: polygon3
+    400204: polygon30
+    400206: polygon31
+    400208: polygon32
+    400210: polygon33
+    400212: polygon34
+    400214: polygon35
+    400216: polygon36
+    400218: polygon37
+    400220: polygon38
+    400222: polygon39
+    400224: polygon4
+    400226: polygon40
+    400228: polygon41
+    400230: polygon42
+    400232: polygon43
+    400234: polygon44
+    400236: polygon45
+    400238: polygon46
+    400240: polygon47
+    400242: polygon48
+    400244: polygon49
+    400246: polygon5
+    400248: polygon50
+    400250: polygon51
+    400252: polygon52
+    400254: polygon53
+    400256: polygon54
+    400258: polygon55
+    400260: polygon56
+    400262: polygon57
+    400264: polygon58
+    400266: polygon6
+    400268: polygon7
+    400270: polygon8
+    400272: polygon9
+    400274: polymsh
+    400276: polymsh1
+    400278: polymsh2
+    400280: //RootNode
+    400282: prb1
+    400284: samurai2
+    400286: tekubi_awase
+    400288: watch
+    4300000: polygon0
+    4300002: polygon1
+    4300004: polygon2
+    4300006: polygon3
+    4300008: polygon4
+    4300010: polygon5
+    4300012: polygon6
+    4300014: polygon7
+    4300016: polygon8
+    4300018: polygon9
+    4300020: polygon10
+    4300022: polygon11
+    4300024: polygon12
+    4300026: polygon13
+    4300028: polygon14
+    4300030: polygon15
+    4300032: polygon16
+    4300034: polygon17
+    4300036: polygon18
+    4300038: polygon19
+    4300040: polygon20
+    4300042: polygon21
+    4300044: polygon22
+    4300046: polygon23
+    4300048: polygon24
+    4300050: polygon25
+    4300052: polygon26
+    4300054: polygon27
+    4300056: polygon28
+    4300058: polygon29
+    4300060: polygon30
+    4300062: polygon31
+    4300064: polygon32
+    4300066: polygon33
+    4300068: polygon34
+    4300070: polygon35
+    4300072: polygon36
+    4300074: polygon37
+    4300076: polygon38
+    4300078: polygon39
+    4300080: polygon40
+    4300082: polygon41
+    4300084: polygon42
+    4300086: polygon43
+    4300088: polygon44
+    4300090: polygon45
+    4300092: polygon46
+    4300094: polygon47
+    4300096: polygon48
+    4300098: polygon49
+    4300100: polygon50
+    4300102: polygon51
+    4300104: polygon52
+    4300106: polygon53
+    4300108: polygon54
+    4300110: polygon55
+    4300112: polygon56
+    4300114: polygon57
+    4300116: polygon58
+    9500000: //RootNode
+    13700000: polygon0
+    13700002: polygon1
+    13700004: polygon10
+    13700006: polygon11
+    13700008: polygon12
+    13700010: polygon13
+    13700012: polygon14
+    13700014: polygon15
+    13700016: polygon16
+    13700018: polygon17
+    13700020: polygon18
+    13700022: polygon19
+    13700024: polygon2
+    13700026: polygon20
+    13700028: polygon21
+    13700030: polygon22
+    13700032: polygon23
+    13700034: polygon24
+    13700036: polygon25
+    13700038: polygon26
+    13700040: polygon27
+    13700042: polygon28
+    13700044: polygon29
+    13700046: polygon3
+    13700048: polygon30
+    13700050: polygon31
+    13700052: polygon32
+    13700054: polygon33
+    13700056: polygon34
+    13700058: polygon35
+    13700060: polygon36
+    13700062: polygon37
+    13700064: polygon38
+    13700066: polygon39
+    13700068: polygon4
+    13700070: polygon40
+    13700072: polygon41
+    13700074: polygon42
+    13700076: polygon43
+    13700078: polygon44
+    13700080: polygon45
+    13700082: polygon46
+    13700084: polygon47
+    13700086: polygon48
+    13700088: polygon49
+    13700090: polygon5
+    13700092: polygon50
+    13700094: polygon51
+    13700096: polygon52
+    13700098: polygon53
+    13700100: polygon54
+    13700102: polygon55
+    13700104: polygon56
+    13700106: polygon57
+    13700108: polygon58
+    13700110: polygon6
+    13700112: polygon7
+    13700114: polygon8
+    13700116: polygon9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: _00
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _20
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _16
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _21
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _17
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _22
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _18
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _03
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _04
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _10
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _05
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _12
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _07
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _13
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _08
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _14
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _09
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _23
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: _19
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PRB1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prb1
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CAMERA2
+      parentName: prb1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CAMERA_01
+      parentName: CAMERA2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C0_00
+      parentName: CAMERA_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C0_01
+      parentName: CAMERA_01
+      position: {x: -0, y: 0, z: 0.99999994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C0_02
+      parentName: CAMERA_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C0_03
+      parentName: CAMERA_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CAMERA_02
+      parentName: CAMERA2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C1_00
+      parentName: CAMERA_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C1_01
+      parentName: CAMERA_02
+      position: {x: -0, y: 0, z: 0.99999994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C1_02
+      parentName: CAMERA_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C1_03
+      parentName: CAMERA_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CAMERA_03
+      parentName: CAMERA2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C2_00
+      parentName: CAMERA_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C2_01
+      parentName: CAMERA_03
+      position: {x: -0, y: 0, z: 0.99999994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C2_02
+      parentName: CAMERA_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C2_03
+      parentName: CAMERA_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MESH
+      parentName: prb1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bmerge111
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj20
+      parentName: bmerge111
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj25
+      parentName: bmerge111
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bmerge125
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bmerge77
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: c20
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_l0
+      parentName: hand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_l1
+      parentName: hand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_l2
+      parentName: hand
+      position: {x: 0.7420826, y: 1.3863621, z: -0.0090276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_r0
+      parentName: hand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tekubi_awase
+      parentName: hand_r0
+      position: {x: 0.593775, y: 1.3755019, z: -0.037665598}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mod_center_0_95_scale_
+      parentName: tekubi_awase
+      position: {x: 0.12086262, y: -0.015121937, z: 0.0392712}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: samurai2
+      parentName: mod_center_0_95_scale_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: edge2
+      parentName: samurai2
+      position: {x: -0.85539484, y: -1.4836884, z: -0.013357999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_r1
+      parentName: hand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: 0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_r2
+      parentName: hand
+      position: {x: 0.7420826, y: 1.3863621, z: -0.0090276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj14
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj17
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj18
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj29
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj30
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj33
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj36
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj38
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: a1
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: a4
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: a_2
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: b00_2
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj34
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj35
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj39
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: cube5
+      parentName: obj39
+      position: {x: 0.045439087, y: 1.5033842, z: -0.0000000019862056}
+      rotation: {x: -0, y: 0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: obj41
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: polymsh
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polymsh1
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polymsh2
+      parentName: obj38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: watch
+      parentName: MESH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: N_ALL
+      parentName: prb1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _00
+      parentName: N_ALL
+      position: {x: -0, y: 1.067693, z: 0}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: _01
+      parentName: _00
+      position: {x: -0, y: 0.007098007, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _02
+      parentName: _01
+      position: {x: -0.0036743, y: 0.11574802, z: 1.6060875e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _03
+      parentName: _02
+      position: {x: -0.028095696, y: 0.24107409, z: 0.000000001228102}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _04
+      parentName: _03
+      position: {x: 0.0144205, y: 0.0627531, z: -6.3034e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _05
+      parentName: _02
+      position: {x: -0.0357948, y: 0.17446108, z: -0.010178998}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _06
+      parentName: _05
+      position: {x: -0.1190943, y: 0.010501957, z: -0.0018033838}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _07
+      parentName: _05
+      position: {x: -0.1190943, y: 0.010501957, z: -0.0018033838}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _08
+      parentName: _07
+      position: {x: -0.2348431, y: 0, z: 0.000000019911138}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _09
+      parentName: _08
+      position: {x: -0.22965857, y: 0, z: 0.000000019126901}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _10
+      parentName: _02
+      position: {x: -0.0357948, y: 0.17446108, z: 0.010179001}
+      rotation: {x: -0, y: 0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _11
+      parentName: _10
+      position: {x: -0.1190943, y: 0.010501957, z: 0.001803398}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _12
+      parentName: _10
+      position: {x: -0.1190943, y: 0.010501957, z: 0.001803398}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _13
+      parentName: _12
+      position: {x: -0.2348431, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _14
+      parentName: _13
+      position: {x: -0.22965866, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _15
+      parentName: _00
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -6.1232336e-17, y: 1, z: 6.1232336e-17, w: -0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _16
+      parentName: _15
+      position: {x: 0.014374991, y: -0.09632902, z: 0.0797809}
+      rotation: {x: 0, y: -0.000000031786513, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _17
+      parentName: _16
+      position: {x: -5.071015e-10, y: -0.4369591, z: 6.283512e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _18
+      parentName: _17
+      position: {x: -5.071015e-10, y: -0.41599837, z: 6.283512e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _19
+      parentName: _18
+      position: {x: -0.078136295, y: -0.08728847, z: -0.000000002787095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _20
+      parentName: _15
+      position: {x: 0.014375009, y: -0.09632902, z: -0.0797809}
+      rotation: {x: 0, y: -0.000000031786513, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _21
+      parentName: _20
+      position: {x: -9.830146e-10, y: -0.43695933, z: 6.2835115e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _22
+      parentName: _21
+      position: {x: 0.000000025839073, y: -0.41599807, z: 0.000000012549282}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _23
+      parentName: _22
+      position: {x: -0.07855061, y: -0.08728908, z: -0.0000000028052036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _24
+      parentName: _15
+      position: {x: 0.1133152, y: 0.015113067, z: 0.000000012156955}
+      rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: 0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _25
+      parentName: _24
+      position: {x: 0.1133152, y: -1.0828061, z: -0.0000000049531645}
+      rotation: {x: -0, y: 0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _26
+      parentName: _25
+      position: {x: -0, y: -7.45058e-10, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon0
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon1
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon2
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon3
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon4
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon5
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon6
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon7
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon8
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon9
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon10
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon11
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon12
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon13
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon14
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon15
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon16
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon17
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon18
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon19
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon20
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon21
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon22
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon23
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon24
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon25
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon26
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon27
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon28
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon29
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon30
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon31
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon32
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon33
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon34
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon35
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon36
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon37
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon38
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon39
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon40
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon41
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon42
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon43
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon44
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon45
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon46
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon47
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon48
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon49
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon50
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon51
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon52
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon53
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon54
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon55
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon56
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon57
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polygon58
+      parentName: PRB1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

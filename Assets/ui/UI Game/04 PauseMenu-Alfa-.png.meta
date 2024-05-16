@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 9318b89a7858a434d98480de2b1b1f00
+timeCreated: 1715344525
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 04 PauseMenu-Fondo
+    21300002: 04 PauseMenu-Buttv
+    21300004: 04 PauseMenu-Pause
+    21300006: 04 PauseMenu-Alfa-_3
+    21300008: 04 PauseMenu-Alfa-_4
+    21300010: 04 PauseMenu-Alfa-_5
+    21300012: 04 PauseMenu-Alfa-_6
+    21300014: 04 PauseMenu-Alfa-_7
+    21300016: 04 PauseMenu-Alfa-_8
+    21300018: 04 PauseMenu-Alfa-_9
+    21300020: 04 PauseMenu-Alfa-_10
+    21300022: 04 PauseMenu-Alfa-_11
+    21300024: 04 PauseMenu-Alfa-_12
+    21300026: 04 PauseMenu-Alfa-_13
+    21300028: 04 PauseMenu-Alfa-_14
+    21300030: 04 PauseMenu-Alfa-_15
+    21300032: 04 PauseMenu-Alfa-_16
+    21300034: 04 PauseMenu-Alfa-_17
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 04 PauseMenu-Fondo
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 231
+        width: 1251
+        height: 844
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 59, y: 77, z: 68, w: 75}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Buttv
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 932
+        width: 405
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Pause
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 24
+        width: 564
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_3
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 40
+        width: 358
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_4
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 15
+        width: 269
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_5
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 211
+        width: 338
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_6
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 130
+        width: 375
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_7
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 42
+        width: 386
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_8
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 837
+        width: 405
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_9
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 729
+        width: 329
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_10
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 614
+        width: 316
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_11
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 498
+        width: 321
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_12
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 385
+        width: 405
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_13
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 292
+        width: 402
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 437
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 783
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 872
+        width: 96
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 04 PauseMenu-Alfa-_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 972
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
