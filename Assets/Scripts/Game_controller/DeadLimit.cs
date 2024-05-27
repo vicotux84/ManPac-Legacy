@@ -5,30 +5,30 @@ using UnityEngine.UI;
 
 public class DeadLimit : MonoBehaviour{
     
-    [SerializeField]string TagJugador;
-   [SerializeField]GameManager GameManager;
-    public GameObject Player;
+    public string TagJugador;     
     public Vector3 Destino;
-    public float waitTime=3;
+    public string LevelNum;
     public Text levelText;
-    CharacterController controller;
+    public int EsperarTexto;
+    
+    GameManager GameManager;
+    GameObject Player;
+
 
     void Awake(){
       SearchPlayer();
+       levelText.text="Level: "+LevelNum;
+       Invoke("DeadL", EsperarTexto);
       }
       void OnTriggerEnter(Collider other){
 		if (other.tag == TagJugador){
         GameManager.lives--;
        Player.transform.position=Destino;
         levelText.text="lives: 0" + GameManager.lives.ToString();
-        Invoke("DeadL", waitTime);
-        
-        
-
-        }
+        Invoke("DeadL", EsperarTexto);
+       }
     } 
     private void DeadL() {
-      Player.transform.position=Destino;
       levelText.text="";      
       
     }

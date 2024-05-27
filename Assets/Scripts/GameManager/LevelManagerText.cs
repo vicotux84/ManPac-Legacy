@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class LevelManagerText: MonoBehaviour{
     public Text ganastes;
     public float waitTime=3;
-    public string NextLevel, MainMenu="MainMenu";
+    public int NextLevel;
+    public string MainMenu="MainMenu";
     [SerializeField] GameManager gamanager;
     bool GameStart;
     
@@ -40,18 +41,20 @@ public void NextBola(){
     }
     public void ganaste(){
         ganastes.text="";
-         gamanager.GameOver(NextLevel);  
+         gamanager.GameOver(NextLevel.ToString());
+         NextLevel+=1;
+
     }
 
     public void StartOtro(){
         if (GameManager.Coins==0 && GameStart== true){
-            if(NextLevel!=MainMenu){
-                ganastes.text="Siguiente Nivel";
-            }
+           // if(NextLevel!=MainMenu){
+               // ganastes.text="Siguiente Nivel";
+           // }
             
-            if(NextLevel==MainMenu){
-                ganastes.text="Juego terminado";
-            }
+           // if(NextLevel==MainMenu){
+                //ganastes.text="Juego terminado";
+            //}
             GameStart=false;
             Invoke ("ganaste" ,waitTime);       
         }if(GameManager.Coins!=0){

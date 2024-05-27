@@ -16,30 +16,26 @@ public class GameManager : MonoBehaviour{
     public static GameManager gameManager;
     public static GameManager GM_Lives;
     public static int lives=10,Points=0, Coins=0,Hearts=100;
-    [SerializeField] SoundFXManagerv FXManager;
-
-    [SerializeField] GameObject Player, Player1,Player2;
-    [SerializeField] Vector3 position;
-    public float espera_Reespawn;
-    //int prefabPlayer=0;
-    [SerializeField]  string Tag_Player="Player";
-
     public static int HighScore;
-    public string NexLevel;
-    public GameState currentGameState;
-    [SerializeField]private int Life,Healt, Colectables;
-    [SerializeField]float volMusic, volSFX;
 
-    [Header ("Sound Efects")]    
+    public GameState currentGameState;
+    public float espera_Reespawn;
+    public string MainMenu;
+    [Header ("UI")]
+    [SerializeField] int Colectables;
+    [SerializeField] int Life,Healt;
+
+    [Header ("Asignaciones Previas")]  
+    [SerializeField] SoundFXManagerv FXManager;
+    [Header ("Players")] 
+    [SerializeField] GameObject Player;
+    [SerializeField] GameObject Player1,Player2;
+    [SerializeField] Vector3 position;    
+    [SerializeField]  string Tag_Player="Player";
+    [Header ("Sound Efects")]
+    [SerializeField]float volMusic, volSFX;    
     public AudioClip Dead;
     public AudioClip Danger;
-    
-
-    private bool _IsCoin=false;
-    //public bool IsCoin{
-        //get=>_IsCoin;
-        //set=>_IsCoin=value;
-       // }
     
      
 #endregion
@@ -65,11 +61,10 @@ public class GameManager : MonoBehaviour{
         Time.timeScale = 0;
     }
     public void GameOver(string SceneToLoad){
-        //currentGameState=GameState.gameOver;
         Time.timeScale = 1;     
         
 	   SceneManager.LoadScene (SceneToLoad);
-       if(SceneToLoad=="MainMenu"){
+       if(SceneToLoad==MainMenu){
            if(HighScore<=Points){
             HighScore=Points;
             Debug.Log("gameOver");
@@ -86,7 +81,7 @@ public class GameManager : MonoBehaviour{
     }
     public void DeadMain() {
         ResetGame();
-         SceneManager.LoadScene ("MainMenu");
+         SceneManager.LoadScene (MainMenu);
 
     }
 
@@ -101,12 +96,10 @@ public class GameManager : MonoBehaviour{
     public void NextLive(){    
         Time.timeScale = 1;
 		Instantiate(Player1,position,Quaternion.identity);
-         //Player.transform.position=position;
-         //Player.SetActive(true);  
     }
     void livesCount(){
         if(lives==0){
-            GameOver("MainMenu");
+            GameOver(MainMenu);
            
         }        
     }

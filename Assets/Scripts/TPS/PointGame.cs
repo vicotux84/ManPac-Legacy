@@ -9,12 +9,12 @@ public class PointGame : MonoBehaviour{
     public string Ganaste= "Ganaste!!!";
     public int _colectables, _total_Items;
     public AudioClip Ganaste_Audio;
-    //public CameraController _Camera;
     public GameObject QuitButton,PauseButton;
     
     AudioSource audioSource;
 
     void Update() {
+        PointText.text =": "+ _colectables.ToString();
 		
     }
     private void Start() {
@@ -28,11 +28,9 @@ public class PointGame : MonoBehaviour{
     }
 
     public void Update_Colectables(){
-        PointText.text =": "+ _colectables.ToString();
         if(_colectables==_total_Items){
         Ganaste_text.text=Ganaste;
         SoundFX(Ganaste_Audio);
-         //_Camera.enabled=false;
          QuitButton.SetActive(true);
          PauseButton.SetActive(false);
 		Time.timeScale = 0;
