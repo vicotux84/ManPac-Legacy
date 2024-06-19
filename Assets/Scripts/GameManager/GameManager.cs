@@ -22,14 +22,14 @@ public class GameManager : MonoBehaviour{
     public float espera_Reespawn;
     public string MainMenu;
     [Header ("UI")]
-    [SerializeField] int Colectables;
-    [SerializeField] int Life,Healt;
+    public int Colectables=0;
+    public int Life,Healt;
 
     [Header ("Asignaciones Previas")]  
     [SerializeField] SoundFXManagerv FXManager;
     [Header ("Players")] 
     [SerializeField] GameObject Player;
-    [SerializeField] GameObject Player1,Player2;
+    public GameObject Player1,Player2;
     [SerializeField] Vector3 position;    
     [SerializeField]  string Tag_Player="Player";
     [Header ("Sound Efects")]
@@ -89,9 +89,8 @@ public class GameManager : MonoBehaviour{
         lives=8;
         Hearts=100;
         Points=0;
-        Coins=0;     
-        Time.timeScale =
-        Time.timeScale == 0 ? 1: 0;
+        Coins=0;    
+        Time.timeScale = Time.timeScale == 0 ? 1: 0;
     }
     public void NextLive(){    
         Time.timeScale = 1;

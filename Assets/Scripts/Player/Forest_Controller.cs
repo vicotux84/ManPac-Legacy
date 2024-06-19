@@ -5,12 +5,11 @@ using UnityEngine;
 public class Forest_Controller : MonoBehaviour{
     
     [SerializeField] Transform MeshPlayer;
-    private Vector3 moveDirection = Vector3.zero;
     [SerializeField][Range(0.001f, 20.0f)]
     float Speed=0.1f,SpeedRun=0.1f;
     
    [SerializeField]bool CursorIsvisble=false;
-   [SerializeField]string Horizontal, Vertical, Run;
+   [SerializeField]string Horizontal="Horizontal", Vertical="Vertical", Run="Run";
     
     private  CharacterController _controller;
     
@@ -20,7 +19,7 @@ public class Forest_Controller : MonoBehaviour{
     private void Awake(){
         _controller=GetComponent<CharacterController>();
         _anim=gameObject.GetComponent<Animator>();
-		if(CursorIsvisble=false) {
+		if(CursorIsvisble==false) {
 			Cursor.lockState = CursorLockMode.Locked;
 			Cursor.visible = false;
 		}else {

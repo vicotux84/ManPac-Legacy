@@ -6,15 +6,12 @@ using UnityEngine.UI;
 public class LevelManagerUI: MonoBehaviour{
     [Header("Game Datos")]
     [SerializeField]int Life;  
-    int Score, Heart, coins,highScore ;
-    
+    public int Score=0, Heart=0, coins=0,highScore=0;    
     int lifeGameOver=0;
     [Header("textos")]
-    [SerializeField]Text Points;
-
-     [SerializeField]Text Lives,HeartText,HighScore;
-     [Header("Dependencias")]
+     public Text Points,Lives,HeartText,HighScore;
      
+     [Header("Dependencias")]     
      [SerializeField] LevelManagerText ManagerText;
 
     [SerializeField] GameManager gamanager;

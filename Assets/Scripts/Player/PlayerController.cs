@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
-   [SerializeField] [Range(1f, 100f)]float Speed,Rotation;
+   [SerializeField] [Range(1f, 100f)]float Speed=0,Rotation=0;
 
     private Rigidbody rb;
     //private PlayerAnimation animation;
